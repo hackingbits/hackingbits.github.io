@@ -1,0 +1,49 @@
+// Typography
+// --------------------------------------------------
+
+$base-font: 'Lato', Calibri, Arial, sans-serif;
+$heading-font: $base-font;
+$caption-font: $base-font;
+$code-font: monospace;
+$alt-font: serif;
+
+$doc-font-size: 16;
+$doc-line-height: 26;
+
+
+// set-up the body font-size / line-height
+body {
+	margin-top: 0px + $doc-line-height;
+	font-size: -2px + $doc-font-size;
+	text-align: justify; //hackingbits
+}
+
+
+// Colors
+// --------------------------------------------------
+$base-color		: rgba(#fff,0.6);
+$body-color		: rgba(#222,0.9);
+$text-color		: rgba(#fff,0.75);
+$hl-bg-color		: darken($base-color,70); //hackingbits
+$bold-color		: darken(lime, 15); //hackingbits
+$comp-color		: darken($body-color,10);
+$border-color		: lighten($base-color,10);
+$menu-color     	: #888; //hackingbits
+$white			: #fff;
+$black			: #000;
+$link-color		: rgba(#aaa,1.1);
+$page-li-color		: $bold-color; //hackingbits
+
+$primary		: #222;
+$success		: #5cb85c;
+$warning		: #dd8338;
+$danger			: #C64537;
+$info			: #308cbc;
+
+
+// Screen Size
+// --------------------------------------------------
+
+$small		: "only screen and (min-width: 30em)";
+$medium		: "only screen and (min-width: 48em)";
+$large		: "only screen and (min-width: 62.5em)";
