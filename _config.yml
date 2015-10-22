@@ -40,9 +40,11 @@ timezone:    America/Fortaleza
 future:      true
 highlighter: pygments
 markdown:    kramdown
+excerpt_separator: <!--more-->
 
 gems:
   - jekyll-sitemap
+
 sass:
   sass_dir: _sass
   style: compressed

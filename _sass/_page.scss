@@ -3,24 +3,22 @@ body {
 	padding: 0;
 	width: 100%;
 	background-color: $body-color;
-	//hackingbits
-	p {
-		strong {
-			font-weight: normal;
-			color: $bold-color;
-		}
-	}
+}
+
+//hackingbits
+article
+ {
 	p > a,
 	li > a,
 	em > a,
 	strong > a {
-		text-decoration: none;
+		// text-decoration: none;
 		color: $page-li-color;
 		&:visited {
 			color: darken($page-li-color, 15);
 		}
 		&:hover {
-		 	color: lighten($page-li-color, 15);
+			color: lighten($page-li-color, 15);
 		}
 		&:focus {
 			outline: thin dotted;
@@ -28,6 +26,12 @@ body {
 		}
 		&:active {
 			outline: 0;
+		}
+	}
+	p {
+		strong {
+			font-weight: normal;
+			color: $bold-color;
 		}
 	}
 	.highlight {

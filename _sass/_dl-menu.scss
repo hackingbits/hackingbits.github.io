@@ -48,7 +48,7 @@
 		top: 10px;
 		left: 16%;
 		box-shadow:
-			0 10px 0 $menu-color, 
+			0 10px 0 $menu-color,
 			0 20px 0 $menu-color;
 	}
 	button.dl-active {
@@ -359,6 +359,7 @@ All this is done for any sub-level being entered.
 .dl-menuwrapper button:hover,
 .dl-menuwrapper button.dl-active,
 .dl-menuwrapper ul {
+	color: $menu-color;
 	background: $comp-color;
 }
 // Fix for IE
