@@ -6,12 +6,13 @@ body {
 }
 
 //hackingbits
-article
- {
+article {
 	p > a,
 	li > a,
 	em > a,
-	strong > a {
+	ul > a,
+	strong > a
+		{
 		// text-decoration: none;
 		color: $page-li-color;
 		&:visited {
