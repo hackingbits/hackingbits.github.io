@@ -13,7 +13,7 @@ I received my copy of [Programming in C (4th Edition) (Developer's Library)](htt
 
 <!--more-->
 
-{% include image.html url="http://www.informit.com/ShowCover.aspx?isbn=0321776410" desc="" %}
+{% include imagehb.html url="http://www.informit.com/ShowCover.aspx?isbn=0321776410" caption="" %}
 
 The book is dense with 548 pages and, at first glance, a great resource for
 beginners and advanced C coders. I'll let you know more about my reading. Just

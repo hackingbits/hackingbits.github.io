@@ -50,7 +50,7 @@ seguintes estágios:
 - assembler (de linguagem assembly para código de máquina)
 - linking (criação do binário final)
 
-{% include image.html url="https://raw.github.com/geyslan/hb/master/desconstruindo/GCC.Stages.png" desc="Estágios da Compilação" %}
+{% include imagehb.html url="https://raw.github.com/geyslan/hb/master/desconstruindo/GCC.Stages.png" caption="Estágios da Compilação" %}
 
 Criemos como exemplo um programa minimalista em C com o famoso Hello World.
 

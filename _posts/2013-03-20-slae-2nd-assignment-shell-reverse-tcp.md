@@ -52,7 +52,7 @@ $ msfpayload linux/x86/shell_reverse_tcp LHOST=127.0.0.1 R | /opt/libemu/bin/sct
 $ dot shell_reverse_tcp_metasploit.dot -T png -o shell_reverse_tcp_metasploit.png
 {% endhighlight %}
 
-{% include image.html url="https://raw.github.com/geyslan/SLAE/master/2nd.assignment/shell_reverse_tcp_metasploit.png" desc="Fluxograma do shell_reverse_tcp_metasploit" %}
+{% include imagehb.html url="https://raw.github.com/geyslan/SLAE/master/2nd.assignment/shell_reverse_tcp_metasploit.png" caption="Fluxograma do shell_reverse_tcp_metasploit" %}
 
 Vê-se que, diferentemente dos shell_bind_tcp nos quais trabalhamos nos posts
 anteriores, o shell_reverse_tcp, logo após a criação do socket (socket), faz a
@@ -95,7 +95,7 @@ Esse acréscimo se deu pela propriedade da configuração do IP e da Porta nos s
 primeiros bytes. Mesmo com as instruções diferentes, o resultado foi igual.
 Vejam.
 
-{% include image.html url="https://raw.github.com/geyslan/SLAE/master/2nd.assignment/shell_reverse_tcp.png" desc="Fluxograma do shell_reverse_tcp" %}
+{% include imagehb.html url="https://raw.github.com/geyslan/SLAE/master/2nd.assignment/shell_reverse_tcp.png" caption="Fluxograma do shell_reverse_tcp" %}
 
 ###Testando
 

@@ -212,7 +212,7 @@ possíveis bytes lixo; vejam abaixo.
 
 {% gist geyslan/5424493 %}
 
-{% include image.html url="https://raw.github.com/geyslan/SLAE/master/5th.assignment/tiny_chmod.png" desc="Fluxograma linux/x86/chmod" %}
+{% include imagehb.html url="https://raw.github.com/geyslan/SLAE/master/5th.assignment/tiny_chmod.png" caption="Fluxograma linux/x86/chmod" %}
 
 ##2nd - linux/x86/read_file
 

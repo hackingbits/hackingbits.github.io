@@ -70,7 +70,7 @@ b0 0a                 mov    al,0xa
 Like a charm? Copiamos agora apenas o byte necessário *0xa* para o register
 **AL** de 8 bits.
 
-{% include image.html url="http://3.bp.blogspot.com/-WNiLpZTzqOQ/UU4c21RajkI/AAAAAAAAAIQ/R4G1XQRqsPw/s1600/Registers.png" desc="Registers" %}
+{% include imagehb.html url="http://3.bp.blogspot.com/-WNiLpZTzqOQ/UU4c21RajkI/AAAAAAAAAIQ/R4G1XQRqsPw/s1600/Registers.png" caption="Registers" %}
 
 Contudo, se EAX já estiver, hipoteticamente, com 0xffffffff, ao copiarmos apenas
 para AL, o valor final será 0xffffff0a (-246). Qualquer syscall ao usar EAX

@@ -37,9 +37,9 @@ Nesta empreitada, vamos caçar ovos... não,
 [cooler](https://plus.google.com/100365453402860467427), não vai ser um elefante
 engolido por uma jiboia, muito menos achocolatados. :D []'s
 
-{% include image.html url="http://1.bp.blogspot.com/-BJ2Zk5Um6mo/UVMJb5T9uaI/AAAAAAAAAIw/u2s6Z8o-6Js/s1600/Aptitude_moo.png" desc="aptitude moo" %}
+{% include imagehb.html url="http://1.bp.blogspot.com/-BJ2Zk5Um6mo/UVMJb5T9uaI/AAAAAAAAAIw/u2s6Z8o-6Js/s1600/Aptitude_moo.png" caption="aptitude moo" %}
 
-{% include image.html url="http://3.bp.blogspot.com/-3xIyqUvg8sQ/UVMJaOvsHzI/AAAAAAAAAIs/27Nx8y-wh-g/s1600/_resized_elefante_copy.jpg" desc="O Pequeno Príncipe - Antoine de Saint-Exupéry" %}
+{% include imagehb.html url="http://3.bp.blogspot.com/-3xIyqUvg8sQ/UVMJaOvsHzI/AAAAAAAAAIs/27Nx8y-wh-g/s1600/_resized_elefante_copy.jpg" caption="O Pequeno Príncipe - Antoine de Saint-Exupéry" %}
 
 ###3rd Assignment
 
@@ -92,7 +92,7 @@ O resultado foi este.
 
 Fluxograma gerado no r2 ([radare](http://www.radare.org/)).
 
-{% include image.html url="https://raw.github.com/geyslan/SLAE/master/3rd.assignment/egg_hunter.png" desc="Fluxograma gerado no r2 (radare)" %}
+{% include imagehb.html url="https://raw.github.com/geyslan/SLAE/master/3rd.assignment/egg_hunter.png" caption="Fluxograma gerado no r2 (radare)" %}
 
 Para facilitar a exemplificação, o Egg já se encontra no próprio Egg Hunter
 Launcher.

@@ -8,7 +8,7 @@ modified_time: '2014-08-15T12:21:07.015-03:00'
 blogger_id: tag:blogger.com,1999:blog-2541885528459487831.post-5615588454119461090
 blogger_orig_url: http://www.hackingbits.com/2014/08/odd-ways-to-zeroing-some-x8664-registers.html
 ---
-Hi there! Here are some ways (retrocompatible instructions [^1] [^2] and xmm) to
+Hi there! Here are some ways (retrocompatible instructions [[1-2]](#links) and xmm) to
 fill registers with zero (NULL) bytes without have any zero bytes in bytecode.
 
 <!--more-->
@@ -96,7 +96,7 @@ Zeroing (1) %RDX at 6 bytes cost.
 
 Use them at will.
 
----
+## Links {#links}
 
-[^1]: [How NOP nearly became a non-NOP on AMD64](http://www.pagetable.com/?p=6)
-[^2]: [x86oddities](https://code.google.com/p/corkami/wiki/x86oddities#nop)
+[1] - [How NOP nearly became a non-NOP on AMD64](http://www.pagetable.com/?p=6)<br>
+[2] - [x86oddities](https://code.google.com/p/corkami/wiki/x86oddities#nop)

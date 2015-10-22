@@ -2,7 +2,7 @@
 layout: post
 title: "(Un)building Software - English Version"
 date: '2013-06-07T10:21:00.000-03:00'
-author: pedrofausto
+author: geyslan
 tags: [linux, code, assembly, python, elf, crackme, cryptography, hacking, reverse engineering, english]
 modified_time: '2013-06-07T10:48:02.243-03:00'
 blogger_id: tag:blogger.com,1999:blog-2541885528459487831.post-4203435448292129696
@@ -16,6 +16,8 @@ about opening up a program’s 'box' and looking inside. Of course, we won’t n
 any screwdrivers on this journey. Just like software engineering, software
 reverse engineering is a purely virtual process, involving only a CPU, and the
 human mind”* **Reversing – Secrets of Reverse Engineering – Eldad Eilam**.
+
+###*Translated by: [Pedro Fausto](https://profiles.google.com/pedrofausto)*
 
 <!--more-->
 
@@ -48,7 +50,7 @@ While invoking GCC the sequence of commands executed obey the following stages:
 - assembler (assembly language into machine code)
 - linking (creating the final binary)
 
-{% include image.html url="https://raw.github.com/geyslan/hb/master/desconstruindo/GCC.Stages.english.png" desc="Compilation Stages" %}
+{% include imagehb.html url="https://raw.github.com/geyslan/hb/master/desconstruindo/GCC.Stages.english.png" caption="Compilation Stages" %}
 
 Let us create as example a minimalist program in C with the famous Hello World
 routine.
@@ -327,8 +329,6 @@ understanding of the ELF structure as well as the method and tools used in
 reversing.
 
 See you there!
-
-*Translated by: [Pedro Fausto](https://profiles.google.com/pedrofausto)*
 
 ##Mais Informações
 [Reversing – Secrets of Reverse Engineering – Eldad Eilam](http://www.amazon.com/Reversing-Secrets-Engineering-Eldad-Eilam/dp/0764574817/)<br>

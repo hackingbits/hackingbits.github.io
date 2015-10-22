@@ -21,17 +21,17 @@ body {
 
 // Colors
 // --------------------------------------------------
-$base-color		: rgba(#fff,0.6);
-$body-color		: rgba(#222,0.9);
-$text-color		: rgba(#fff,0.75);
-$hl-bg-color		: darken($base-color,70); //hackingbits
+$base-color		: #fff;
+$body-color		: rgba(#222, 0.95);
+$text-color		: rgba(#fff, 0.65);
+$hl-bg-color		: darken($base-color,78); //hackingbits
 $bold-color		: darken(lime, 15); //hackingbits
-$comp-color		: darken($body-color,10);
-$border-color		: lighten($base-color,10);
-$menu-color     	: #888; //hackingbits
+$comp-color		: darken($body-color,15);
+$menu-color     	: lighten($text-color,10); //hackingbits
+$border-color		: lighten($base-color,70);
 $white			: #fff;
 $black			: #000;
-$link-color		: rgba(#aaa,1.1);
+$link-color		: lighten($body-color,75);
 $page-li-color		: $bold-color; //hackingbits
 
 $primary		: #222;

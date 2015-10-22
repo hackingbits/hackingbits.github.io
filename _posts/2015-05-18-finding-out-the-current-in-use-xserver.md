@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to find out the current (in use) XServer DISPLAY number!
+title: Finding out the current (in use) XServer DISPLAY number!
 date: '2015-05-18T16:42:00.002-03:00'
 author: geyslan
 tags: [xorg, linux, bash, command line, english]

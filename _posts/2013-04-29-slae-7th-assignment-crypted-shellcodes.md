@@ -79,7 +79,7 @@ terminando com o ADD de um valor estático.
 
 ###Built-in Decrypter
 
-{% include image.html url="https://raw.github.com/geyslan/SLAE/master/7th.assignment/uzumaki_decrypter.png" desc="Fluxograma do Uzumaki Cipher" %}
+{% include imagehb.html url="https://raw.github.com/geyslan/SLAE/master/7th.assignment/uzumaki_decrypter.png" caption="Fluxograma do Uzumaki Cipher" %}
 
 O uzumaki cipher é um algoritmo simples que pode ser utilizado com sucesso em
 shellcodes quando o assunto é evasão. Devo ressaltar que um dado criptografado,

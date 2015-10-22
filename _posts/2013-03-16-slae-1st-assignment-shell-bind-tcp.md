@@ -85,7 +85,7 @@ $ msfpayload linux/x86/shell_bind_tcp R | /opt/libemu/bin/sctest -vvv -S -s 1000
 $ dot shell_bind_tcp.dot -T png -o shell_bind_tcp.png
 {% endhighlight %}
 
-{% include image.html url="https://raw.github.com/geyslan/SLAE/master/1st.assignment/shell_bind_tcp.png" desc="Fluxograma do shell_bind_tcp" %}
+{% include imagehb.html url="https://raw.github.com/geyslan/SLAE/master/1st.assignment/shell_bind_tcp.png" caption="Fluxograma do shell_bind_tcp" %}
 
 Bem mais intuitivo, certo? O fluxograma clarifica a sequência de instruções.
 Mesmo assim, decidi seguir outro rumo na construção do shellcode: fiz o mesmo

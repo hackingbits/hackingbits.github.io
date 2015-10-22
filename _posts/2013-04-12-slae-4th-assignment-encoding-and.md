@@ -85,7 +85,7 @@ estudo algorítmico concretizei o decoder em asm como podem ver abaixo.
 
 {% gist geyslan/5373202 %}
 
-{% include image.html url="http://images-onepick-opensocial.googleusercontent.com/gadgets/proxy?container=onepick&gadget=a&rewriteMime=image%2F*&url=https%3A%2F%2Fraw.github.com%2Fgeyslan%2FSLAE%2Fmaster%2F4th.assignment%2Finsertion_decoder.png" desc="Fluxograma do 4th assignment" %}
+{% include imagehb.html url="http://images-onepick-opensocial.googleusercontent.com/gadgets/proxy?container=onepick&gadget=a&rewriteMime=image%2F*&url=https%3A%2F%2Fraw.github.com%2Fgeyslan%2FSLAE%2Fmaster%2F4th.assignment%2Finsertion_decoder.png" caption="Fluxograma do 4th assignment" %}
 
 O que ele faz é percorrer a área da memória na qual o shellcode está inserido,
 comparando o byte lido com o byte lixo, e reordenando-os quando resolvidas as

@@ -58,7 +58,7 @@ correto se dizer que o procedimento de lincagem estará presente.
 
 Discorramos um pouco sobre os tipos mais comuns de arquivos-objeto ELF.
 
-{% include image.html url="https://raw.github.com/geyslan/hb/master/desconstruindo/ELF.Types.png" desc="Tipos de Arquivo-objeto" %}
+{% include imagehb.html url="https://raw.github.com/geyslan/hb/master/desconstruindo/ELF.Types.png" caption="Tipos de Arquivo-objeto" %}
 
 ###Relocável
 
@@ -346,7 +346,7 @@ O formato ELF provê visões paralelas do conteúdo do binário que refletem as
 diferentes necessidades ao se lincar e ao se executar um programa. Inicialmente
 estudaremos a Visão de Lincagem.
 
-{% include image.html url="https://raw.github.com/geyslan/hb/master/desconstruindo/ELF.Format.png" desc="Visões de um ELF" %}
+{% include imagehb.html url="https://raw.github.com/geyslan/hb/master/desconstruindo/ELF.Format.png" caption="Visões de um ELF" %}
 
 Na estrutura há apenas um componente com localização fixa, o ELF Header que se
 encontra no offset zero do arquivo-objeto. Nele são armazenadas as informações
@@ -369,7 +369,7 @@ conter tal tabela. Outros arquivos-objetos podem ou não a conter.
 
 Seguem os tipos usados para a representação de dados nos arquivo-objetos ELF.
 
-{% include image.html url="https://raw.github.com/geyslan/hb/master/desconstruindo/ELF.Data.Representation.png" desc="Estrutura de um ELF" %}
+{% include imagehb.html url="https://raw.github.com/geyslan/hb/master/desconstruindo/ELF.Data.Representation.png" caption="Estrutura de um ELF" %}
 
 Criei o [elfdatatypes](https://github.com/geyslan/hb/blob/master/desconstruindo/elfdatatypes.c)
 para mostrar o tamanho dos tipos em ambas arquiteturas.
@@ -451,7 +451,7 @@ Ficamos por aqui. <s>No próximo encontro, esmiuçaremos a estrutura ElfN_Ehdr.<
 
 Até a próxima!   o/
 
-{% include image.html url="http://fc07.deviantart.net/fs71/f/2013/007/9/2/green_magic_by_katemaxpaint-d5qr63m.jpg" desc="Green Magic by KateMaxpaint" %}
+{% include imagehb.html url="http://fc07.deviantart.net/fs71/f/2013/007/9/2/green_magic_by_katemaxpaint-d5qr63m.jpg" caption="Green Magic by KateMaxpaint" %}
 
 ##Mais Informações
 
