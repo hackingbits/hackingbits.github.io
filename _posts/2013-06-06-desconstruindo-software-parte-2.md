@@ -9,8 +9,6 @@ blogger_id: tag:blogger.com,1999:blog-2541885528459487831.post-14708977086815821
 blogger_orig_url: http://www.hackingbits.com/2013/06/desconstruindo-software-parte-2.html
 ---
 
-##(Des)construindo Software - Parte 2
-
 Ao finalizar o primeiro post, disse-lhes que neste iniciaríamos uma abordagem
 prática da engenharia reversa que possibilitaria um entendimento objetivo da
 estrutura ELF. Contudo, optei por inverter essa ordem, sendo que agora daremos
