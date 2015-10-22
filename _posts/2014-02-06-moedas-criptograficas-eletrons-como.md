@@ -17,6 +17,8 @@ nesse commodity. Expõe métodos de obtenção e comercialização de moedas e
 possibilita uma discussão sobre a viabilidade da criação de uma nova/própria
 moeda.
 
+<!--more-->
+
 *Brief reasoning of the cryptographic currency concept and its
 implication in the paradigm change of the attribution of values and
 work-of-proof commonly accepted. It discusses economic views and the use of the

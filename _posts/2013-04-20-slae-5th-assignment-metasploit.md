@@ -19,6 +19,8 @@ Este post é uma sequência. Para melhor entendimento, vejam:<br>
 [SLAE - 4th Assignment - Encoding and Decoding Gollums](/slae-4th-assignment-encoding-and.html)<br>
 \*/*
 
+<!--more-->
+
 *This blog post has been created for completing the requirements of the
 SecurityTube Linux Assembly Expert certification:*
 

@@ -18,6 +18,8 @@ Este post é uma sequência. Para melhor entendimento, vejam:<br>
 [O menor do mundo? Yeah? So Beat the Bits!](/o-menor-do-mundo-yeah-so-beat-bits.html)<br>
 \*/*
 
+<!--more-->
+
 *This blog post has been created for completing the requirements of the
 SecurityTube Linux Assembly Expert certification:*
 

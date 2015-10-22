@@ -17,6 +17,8 @@ which, somehow, I have instigated through discussion in
 [lkml](https://lkml.org/lkml/2013/10/21/387). Andy's argument corroborates with
 mine, which concerns the deceptive "it works" mantra.
 
+<!--more-->
+
 *Code isn't only a piece that makes things happen. It's really a piece of art
 that demands clarity for whomever read it.*
 

@@ -17,6 +17,8 @@ chave de fenda nesta jornada. Da mesma forma que a engenharia de software, seu
 reverso é puramente um processo virtual envolvendo apenas um processador e a
 mente humana.”* **Reversing – Secrets of Reverse Engineering – Eldad Eilam**.
 
+<!--more-->
+
 Antes de nos debruçarmos na reversão em si, é importante sabermos como se dá o
 processo de engendramento do software binário.
 

@@ -17,6 +17,8 @@ usando o método GetPC (GetEIP). Os demais shellcodes apresentados neste post
 também já foram disponibilizados no mesmo repositório. Tks again, Salwan.<br>
 \*/*
 
+<!--more-->
+
 Enquanto que em muita área por aí o que importa é ter ou fazer algo grande,
 quando falamos em shellcodes sempre os queremos minúsculos, correto? E mesmo que
 isso não seja tão importante para as mais recentes técnicas de exploração, você

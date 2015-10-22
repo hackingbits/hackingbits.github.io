@@ -11,6 +11,8 @@ blogger_orig_url: http://www.hackingbits.com/2014/08/odd-ways-to-zeroing-some-x8
 Hi there! Here are some ways (retrocompatible instructions [[1-2]](#links) and xmm) to
 fill registers with zero (NULL) bytes without have any zero bytes in bytecode.
 
+<!--more-->
+
 Zeroing (1) %RAX at 5 bytes cost (very known indeed).
 
 {% highlight console %}

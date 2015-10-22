@@ -16,6 +16,8 @@ TCP](/slae-1st-assignment-shell-bind-tcp.html)<br>
 [Hacking do Dia - Shell Bind TCP Random Port](/hacking-do-dia-shell-bind-tcp-random.html)<br>
 \*/*
 
+<!--more-->
+
 *This blog post has been created for completing the requirements of the
 SecurityTube Linux Assembly Expert certification:*
 

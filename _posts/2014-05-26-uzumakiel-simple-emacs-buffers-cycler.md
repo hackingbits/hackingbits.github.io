@@ -12,6 +12,8 @@ blogger_orig_url: http://www.hackingbits.com/2014/05/uzumakiel-simple-emacs-buff
 I always complained about the buffer switching procedures in Emacs. So I decided
 to create my own method to do that, and it rocks (to me ;D ).
 
+<!--more-->
+
 Check it: [https://github.com/geyslan/uzumaki](https://github.com/geyslan/uzumaki)
 
 And it's also available through MELPA archive: [http://melpa.milkbox.net/#/uzumaki](http://melpa.milkbox.net/#/uzumaki)

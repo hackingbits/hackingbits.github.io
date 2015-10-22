@@ -2,7 +2,7 @@
 layout: post
 title: "(Un)building Software - English Version"
 date: '2013-06-07T10:21:00.000-03:00'
-author: [geyslan, pedrofausto]
+author: pedrofausto
 tags: [linux, code, assembly, python, elf, crackme, cryptography, hacking, reverse engineering, english]
 modified_time: '2013-06-07T10:48:02.243-03:00'
 blogger_id: tag:blogger.com,1999:blog-2541885528459487831.post-4203435448292129696
@@ -16,6 +16,8 @@ about opening up a program’s 'box' and looking inside. Of course, we won’t n
 any screwdrivers on this journey. Just like software engineering, software
 reverse engineering is a purely virtual process, involving only a CPU, and the
 human mind”* **Reversing – Secrets of Reverse Engineering – Eldad Eilam**.
+
+<!--more-->
 
 Before we get involved with reversing itself it's important to learn how the
 binary software assembling really works.

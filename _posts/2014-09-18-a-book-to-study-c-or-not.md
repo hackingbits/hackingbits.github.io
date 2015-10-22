@@ -14,6 +14,8 @@ As promised I'm back to talk about the [Programming in C (4th Edition)
 Library)](http://www.amazon.com/Programming-4th-Edition-Developers-Library/dp/0321776410)
 book. Well, I'll paste my amazon's review, to be short.
 
+<!--more-->
+
 > When I started this reading soon I became absorbed by the formation of the
 writer's words. Unfortunately that feeling did not persist throughout the work.
 I still read until functions chapter, but the book is not renewed in style.

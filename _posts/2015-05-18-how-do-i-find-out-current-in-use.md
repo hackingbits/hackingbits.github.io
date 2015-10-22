@@ -11,6 +11,8 @@ blogger_orig_url: http://www.hackingbits.com/2015/05/how-do-i-find-out-current-i
 
 Well, just the hack of the day.
 
+<!--more-->
+
 {% highlight console %}
 $ ps u | awk -v tty=$(cat /sys/class/tty/tty0/active) '$0 ~ tty { print $2  }' | while read pid && [[ "$display" == "" ]]; do  display="$(awk -v RS='\0' -F= '$1=="DISPLAY" { print $2 }' /proc/$pid/environ)"; if [ "$display" != "" ]; then echo "$display"; fi; done 2>/dev/null
 :0
@@ -18,7 +20,7 @@ $ ps u | awk -v tty=$(cat /sys/class/tty/tty0/active) '$0 ~ tty { print $2  }' |
 
 Can you improve it? So tell me how. o/
 
-The discussion about the theme on [Quora](http://www.quora.com/How-do-I-find-out-the-current-in-use-XServer-DISPLAY-number) and [Linkedin](https://www.linkedin.com/grp/post/65688-6005477964035211267).
+The discussion about the topic on [Quora](http://www.quora.com/How-do-I-find-out-the-current-in-use-XServer-DISPLAY-number) and [Linkedin](https://www.linkedin.com/grp/post/65688-6005477964035211267).
 
 ###Edited with improvement
 

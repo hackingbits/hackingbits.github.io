@@ -21,6 +21,8 @@ Este post é uma sequência. Para melhor entendimento, vejam:<br>
 [SLAE - 6th Assignment - Polymorphic Shellcodes](/slae-6th-assignment-polymorphic.html)<br>
 \*/*
 
+<!--more-->
+
 *This blog post has been created for completing the requirements of the
 SecurityTube Linux Assembly Expert certification:*
 

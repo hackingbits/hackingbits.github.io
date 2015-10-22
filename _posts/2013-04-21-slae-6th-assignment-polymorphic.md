@@ -20,6 +20,8 @@ Este post é uma sequência. Para melhor entendimento, vejam:<br>
 [SLAE - 5th Assignment - Metasploit Shellcodes Analysis](/slae-5th-assignment-metasploit.html)<br>
 \*/*
 
+<!--more-->
+
 *This blog post has been created for completing the requirements of the
 SecurityTube Linux Assembly Expert certification:*
 

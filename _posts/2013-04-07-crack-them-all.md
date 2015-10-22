@@ -18,6 +18,8 @@ nossos talks enviei-lhe um crackme que tinha preparado para o [Cogumelo
 Binário](http://www.mentebinaria.com.br/zine/). Não deu outra, o cara só
 descansou quando conseguiu descobrir a senha!
 
+<!--more-->
+
 Mas não paramos por aí! Após analisar o
 [walkthrough](https://nixaid.com/crackme-v1-walkthrough/) dele, compilei uma
 nova versão com alguns tricks adicionais.

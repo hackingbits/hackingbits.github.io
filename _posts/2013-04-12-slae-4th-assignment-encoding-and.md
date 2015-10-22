@@ -18,6 +18,8 @@ Este post é uma sequência. Para melhor entendimento, vejam:<br>
 [SLAE - 3rd Assignment - Caçando Ovos?](/slae-3rd-assignment-cacando-ovos.html)<br>
 \*/*
 
+<!--more-->
+
 *This blog post has been created for completing the requirements of the
 SecurityTube Linux Assembly Expert certification:*
 

@@ -18,6 +18,8 @@ início diretamente pelo ELF, a despeito de que a análise da sua estrutura, mes
 que realizada minimamente, em si já é um meio de reversão.<s>, e, somente empós,
 fá-la-emos propriamente lidando com o respectivo binário.</s>
 
+<!--more-->
+
 Preciso também fazer menção às correções que efetuei no
 [primeiro](/desconstruindo-software.html) post da sequência. Graças ao [Ygor
 Parreira](http://www.linkedin.com/pub/ygor-da-rocha-parreira/12/248/b75) (valeu,

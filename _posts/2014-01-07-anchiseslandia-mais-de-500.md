@@ -15,6 +15,8 @@ Compartilho com vocês uma bela lista, elaborada pelo colega
 agradecer a esse grande hacker pela inclusão de meu nome (fato que só percebi
 hoje - /o\ shame), mesmo eu sendo apenas um curioso a respeito de computadores. :-)
 
+<!--more-->
+
 [Mais de 500 Profissionais de Segurança no Twitter](http://anchisesbr.blogspot.com.br/2010/01/seguranca-72-perfis-de-profissionais-de.html)
 {: style="text-align: center;"}
 

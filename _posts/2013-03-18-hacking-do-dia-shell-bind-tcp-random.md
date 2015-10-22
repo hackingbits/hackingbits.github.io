@@ -13,6 +13,8 @@ blogger_orig_url: http://www.hackingbits.com/2013/03/hacking-do-dia-shell-bind-t
 Para melhor entendimento, leiam o post anterior [SLAE - 1st Assignment - Shell Bind TCP](/slae-1st-assignment-shell-bind-tcp.html)<br>
 \*/*
 
+<!--more-->
+
 *\<UPDATE\><br>
 O [shellcode](http://shell-storm.org/shellcode/files/shellcode-834.php) final
 deste post foi aceito no repositório [Shell-Storm](http://www.shell-storm.org/).<br>

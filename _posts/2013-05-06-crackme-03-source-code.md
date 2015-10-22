@@ -11,6 +11,8 @@ blogger_orig_url: http://www.hackingbits.com/2013/05/crackme-03-source-code.html
 
 E não demorou quase nada!
 
+<!--more-->
+
 Parabéns ao [Fernando Mercês](https://twitter.com/MenteBinaria) e ao [Andrey
 Arapov](https://twitter.com/andreyarapov) que quebraram rapidinho o binário
 utilizando formas distintas e super interessantes.

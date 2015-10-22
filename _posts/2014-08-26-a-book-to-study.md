@@ -11,6 +11,8 @@ blogger_orig_url: http://www.hackingbits.com/2014/08/a-book-to-study.html
 
 I received my copy of [Programming in C (4th Edition) (Developer's Library)](http://www.amazon.com/Programming-4th-Edition-Developers-Library/dp/0321776410) from Pearson today.
 
+<!--more-->
+
 {% include image.html url="http://www.informit.com/ShowCover.aspx?isbn=0321776410" desc="" %}
 
 The book is dense with 548 pages and, at first glance, a great resource for

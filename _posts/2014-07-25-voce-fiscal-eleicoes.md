@@ -13,6 +13,8 @@ Temos a oportunidade de sermos fiscais de verdade nas próximas eleições. Para
 isso, o mínimo que podemos fazer, neste momento, é contribuir com o Projeto Você
 Fiscal (Diego Aranha) e divulgá-lo o máximo possível.
 
+<!--more-->
+
 [http://www.catarse.me/pt/VoceFiscal](http://www.catarse.me/pt/VoceFiscal)
 
 Eu, no momento, não acredito na discussão política atual; antes, ao meu ver,

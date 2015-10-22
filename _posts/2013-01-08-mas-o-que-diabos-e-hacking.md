@@ -11,6 +11,8 @@ blogger_orig_url: http://www.hackingbits.com/2013/01/mas-o-que-diabos-e-hacking.
 
 [//]: # (.)
 
+<!--more-->
+
 {% highlight c %}
 #include <stdio.h>
 

@@ -14,6 +14,8 @@ Peço-lhes desculpas, mas no momento oportuno ela virá... Este post é o 1st
 assignment do curso [SecurityTube](http://securitytube-training.com/) Linux
 Assembly Expert, necessário para obtenção da certificação SLAE.
 
+<!--more-->
+
 *This blog post has been created for completing the requirements of the
 SecurityTube Linux Assembly Expert certification:*
 
