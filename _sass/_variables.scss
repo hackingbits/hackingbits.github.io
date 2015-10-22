@@ -21,10 +21,10 @@ body {
 
 // Colors
 // --------------------------------------------------
-$base-color		: #fff;
+$base-color		: #888;
 $body-color		: rgba(#222, 0.95);
 $text-color		: rgba(#fff, 0.65);
-$hl-bg-color		: darken($base-color,78); //hackingbits
+$hl-bg-color		: darken($base-color,55); //hackingbits
 $bold-color		: darken(lime, 15); //hackingbits
 $comp-color		: darken($body-color,15);
 $menu-color     	: lighten($text-color,10); //hackingbits

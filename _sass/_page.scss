@@ -40,6 +40,8 @@ article {
 	}
 }
 
+
+
 // Main
 // --------------------------------------------------
 .entry,
@@ -501,4 +503,34 @@ header .entry-meta {
 }
 #goog-wm-sb {
 	@extend .btn;
+}
+
+// hackingbits
+.author-social {
+	display: inline-block;
+	margin-bottom: 5px;
+	margin-right: 10px;
+	@include font-rem(14);
+	color: darken($white,15);
+	&:visited {
+		color: darken($text-color,15);
+	}
+	&:hover {
+		@include scale(1.1);
+		color: $white;
+	}
+	&:active {
+		@include translate(0, 2px);
+	}
+	.fa {
+		margin-right: 3px;
+	}
+}
+
+// hackingbits
+.bio-photo {
+	float: right;
+	margin-left: 15px;
+	max-width: 150px;
+	@include rounded(300px);
 }
