@@ -10,9 +10,11 @@ image:
 ---
 
 Hacking bits is the place where some crazy minds can outrageously express their hallucinations coding or writing about computer related topics.
+{: style="text-align: center;"}
 
 Be invited to **[help](http://github.com/hackingbits)** their minds get healed.
-<br /><br />
+{: style="text-align: center;"}
+<br />
 
 ## Meet the twisted ones
 {: style="text-align: center;"}

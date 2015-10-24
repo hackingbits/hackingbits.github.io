@@ -33,8 +33,7 @@
 /* page header */
 
 .entry-header {
-	@include fill-parent;
-	text-align: left;
+	@include fill-parent;	
 }
 
 /* tag listing in page header */
@@ -43,7 +42,6 @@
 	display: block;
 	margin-top: 4em;
 	text-transform: uppercase;
-	text-align: left;
 	@include font-size(16);
 	font-weight: 600;
 	a {
@@ -99,11 +97,11 @@ span + .entry-title {
 		color: $text-color;
 	}
 	@include media($large) {
-		@include span-columns(2);
+		@include span-columns(1.5);
 	}
 	& > span {
 		padding: 0 20px 10px 0;
-		display: inline-block;
+		display: block;
 		@include media($large) {
 			display: block;
 			padding: 8px 0;
@@ -113,14 +111,19 @@ span + .entry-title {
 	}
 }
 
+.entry-date {
+	text-transform: uppercase;
+	@include font-size(12);
+}
+
 /* author avatar (circular) */
 
 .bio-photo {
 	display: none;
 	@include media($large) {
 		display: block;
-		width: 150px;
-		height: 150px;
+		width: 100px;
+		height: 100px;
 		margin-bottom: 10px;
 		@include rounded(150px);
 		@include clearfix;

@@ -2,12 +2,12 @@
 
 title: Hacking bits
 locale: en_US
-description: Bits are being watched...
-logo: #site-logo.png
+description: Cooking scrambled binaries
+logo: #site-logo.pngj
 search: true
 comments: true
 url: //hackingbits.github.io
-#url: http://localhost:4000
+url: http://localhost:4000
 
 # Jekyll configuration
 
@@ -51,8 +51,8 @@ owner:
   weibo: #userid
   google:
     plus: #username
-    analytics: caUXZsQs_o7fjo96nIgDVjKmSxZzbrVYWjeluLHmqFI
-    verify:
+    analytics:
+    verify: caUXZsQs_o7fjo96nIgDVjKmSxZzbrVYWjeluLHmqFI
     ad-client:
     ad-slot:
   bing-verify:

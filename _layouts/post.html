@@ -22,26 +22,26 @@
         {% else %}
           <h1 class="entry-title">{% if page.headline %}{{ page.headline }}{% else %}{{ page.title }}{% endif %}</h1>
         {% endif %}
+        <span class="author vcard">By <span class="fn"><a href="{{ author.web }}" target="_blank">{{ author.name }}</a></span><br>
+        <span class="entry-date date published"><time datetime="{{ page.date | date_to_xmlschema }}"><i class="fa fa-calendar-o"></i> {{ page.date | date: "%B %d, %Y" }}</time></span>
+        {% if page.modified %}<span class="entry-date date modified"><time datetime="{{ page.modified }}">&nbsp; &nbsp;<i class="fa fa-pencil"></i> {{ page.modified | date: "%B %d, %Y" }}</time></span>{% endif %}
+        <br><br>
       </header>
       <div class="entry-content">
         {{ content }}
         <hr />
       </div><!-- /.entry-content -->
-      <footer>
-        <div class="entry-meta">
+      <span>
+        <span class="entry-meta">
           <a href="{{ author.web }}" target="_blank"><img class="bio-photo" src="{{ site.url }}/images/{{ author.avatar }}" alt="{{ author.name }}"></a>
-        </div><!-- ./author-image -->
+        </span><!-- ./author-image -->
         <div class="author-content">
-          <b><span class="author vcard">By <span class="fn"><a href="{{ author.web }}" target="_blank">{{ author.name }}</a></span></b>
-          <span style="float:right">
-            <span class="entry-date date published"><time datetime="{{ page.date | date_to_xmlschema }}"><i class="fa fa-calendar-o"></i> {{ page.date | date: "%B %d, %Y" }}</time></span>
-            {% if page.modified %}<span class="entry-date date modified"><time datetime="{{ page.modified }}">&nbsp; &nbsp;<i class="fa fa-pencil"></i> {{ page.modified | date: "%B %d, %Y" }}</time></span>{% endif %}
-          </span>
-          <br><br>
-          <i><div class="author-bio">{{ author.bio }}</div><i>
+          <b><span><span class="fn"><a href="{{ author.web }}" target="_blank">{{ author.name }}</a></span></b>
+          <br>
+          <i><div class="author-bio">{{ author.bio }}</div></i>
           <div align="right">{% if page.share %}{% include social-share.html %}{% endif %}</div>
         </div><!-- /.author -->
-      </footer>
+      </span>
       <hr />
       {% if (site.owner.disqus-shortname and page.comments) or site.comments %}
         <div id="disqus_thread"></div><!-- /#disqus_thread -->

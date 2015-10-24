@@ -55,6 +55,7 @@
 
 .site-title {
   margin-bottom: 0;
+  @include font-size(40);
   @include animation-duration(1s);
     @include animation-delay(.75s);
   a {
