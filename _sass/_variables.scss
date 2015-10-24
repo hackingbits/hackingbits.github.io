@@ -19,7 +19,7 @@ body {
 }
 
 // COLORS =====================================================
-$body-color         : #333;//#fff;
+$body-color         : #222;//#fff;
 $text-color         : #ccc;//#222;
 $base-color         : #343434;
 $comp-color         : spin($base-color, 180);
@@ -28,7 +28,7 @@ $white              : black;//#fff;
 $black              : darken(orange, 18%);//#000;
 $accent-color       : $black;
 $link-color         : $text-color;
-$highlight-bg-color : darken(white, 83%);
+$highlight-bg-color : darken(white, 80%);
 $highlight-color    : white;
 
 $table-border-color           : $border-color;
