@@ -33,7 +33,7 @@
 /* page header */
 
 .entry-header {
-	@include fill-parent;	
+	@include fill-parent;
 }
 
 /* tag listing in page header */
@@ -45,7 +45,7 @@
 	@include font-size(16);
 	font-weight: 600;
 	a {
-		color: darken(orange,15);
+		color: darken($text-color,20);
 		&:hover {
 			border-bottom-style: solid;
 		}
