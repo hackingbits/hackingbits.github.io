@@ -22,9 +22,9 @@
         {% else %}
           <h1 class="entry-title">{% if page.headline %}{{ page.headline }}{% else %}{{ page.title }}{% endif %}</h1>
         {% endif %}
-        <span class="author vcard">By <span class="fn"><a href="{{ author.web }}" target="_blank">{{ author.name }}</a></span><br>
         <span class="entry-date date published"><time datetime="{{ page.date | date_to_xmlschema }}"><i class="fa fa-calendar-o"></i> {{ page.date | date: "%B %d, %Y" }}</time></span>
-        {% if page.modified %}<span class="entry-date date modified"><time datetime="{{ page.modified }}">&nbsp; &nbsp;<i class="fa fa-pencil"></i> {{ page.modified | date: "%B %d, %Y" }}</time></span>{% endif %}
+        {% if page.modified %}<span class="entry-date date modified"><time datetime="{{ page.modified }}">&nbsp; &nbsp;<i class="fa fa-pencil"></i> {{ page.modified | date: "%B %d, %Y" }}</time></span>{% endif %}<br>
+        <span class="entry-date">By <span class="fn"><a href="{{ author.web }}" target="_blank">{{ author.name }}</a></span>
         <br><br>
       </header>
       <div class="entry-content">
