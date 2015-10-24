@@ -4,8 +4,8 @@ geyslan:
   name: Geyslan G. Bem
   web: http://geyslan.github.io
   email: geyslan@gmail.com
-  bio: "Just a common guy who daily delivers bugs 🐛 and still want to be paid 💰 for that."
-  avatar: avatar.jpg
+  bio: "Just a common guy who daily delivers bugs and still want to be paid for that."
+  avatar: bio-photo.jpg
   github: geyslan
   linkedin: geyslan
   twitter: geyslangb
@@ -16,7 +16,7 @@ patito:
   name: Paulo Benatto
   email: benatto@gmail.com
   bio: "Brazilian compressed with LZO, trying to figure out the difference between bits and bytes."
-  avatar: avatar.jpg
+  avatar: bio-photo.jpg
   github: patito
   linkedin:
   twitter: pbenatto
@@ -27,7 +27,7 @@ pedrofausto:
   name: Pedro Fausto Rodrigues
   email: pedrofausto@gmail.com
   bio: "Hardware design, security and malware research enthusiast. Eager to spend his time on creating digital solutions to daily problems."
-  avatar: avatar.jpg
+  avatar: bio-photo.jpg
   github: pedrofausto
   linkedin: pedrofausto
   twitter: pedrofaustojr

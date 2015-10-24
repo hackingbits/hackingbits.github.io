@@ -4,12 +4,11 @@ title: {{ title }}
 author:
 modified:
 categories: {{ dir }}
-description:
-tags: [english]
+excerpt:
+tags: []
+share: true
 image:
   feature:
-  credit:
-  creditlink:
-comments:
-share:
+  credit: #name of the person or site you want to credit
+  creditlink: #url to their site or licensing
 ---

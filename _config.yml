@@ -1,74 +1,58 @@
-title:            Hacking bits
-description:      0101011101101000011110010010000001101110011011110111010000111111
-disqus_shortname: hackingbits
-reading_time:     true
-words_per_minute: 200
-# Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
-# When testing locally leave blank or use http://localhost:4000
+# Site wide configuration
+
+title: Hacking bits
+locale: en_US
+description: Bits are being watched...
+logo: #site-logo.png
+search: true
+comments: true
 url: //hackingbits.github.io
-#url: http://localhost:4000
+url: http://localhost:4000
 
-# Owner/author information
-owner:
-  name:           Hacking bits
-  avatar:         avatar.jpg
-  bio:            "Hacking bits is the place where some crazy minds can outrageously express their hallucinations coding or writing about computer related topics."
-  email:          #geyslan@gmail.com
-  # Social networking links used in footer. Update and remove as you like.
-  twitter:        #geyslangb
-  facebook:
-  github:         hackingbits
-  stackexchange:
-  linkedin:       #geyslan
-  instagram:
-  flickr:
-  tumblr:
-  # google plus id, include the '+', eg +mmistakes
-  google_plus:
+# Jekyll configuration
 
-# Background image to be tiled on all pages
-background:
-
-# Analytics and webmaster tools stuff goes here
-google_analytics:
-google_verify:
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
-
-# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/Fortaleza
-future:      true
-highlighter: pygments
+permalink:   /:categories/:title/
 markdown:    kramdown
-excerpt_separator: <!--more-->
-
-gems:
-  - jekyll-sitemap
-  - jekyll_inline_highlight
-
+highlighter: pygments
 sass:
   sass_dir: _sass
   style: compressed
-
-# https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title/
-
-# Amount of post to show on home page
-paginate: 5
+gems:
+  - jekyll-sitemap
 
 kramdown:
   auto_ids: true
   footnote_nr: 1
   entity_output: as_char
-  toc_levels: 1..6
-  use_coderay: true
+  toc_levels: 1..2
+  use_coderay: false
 
-  coderay:
-    coderay_line_numbers: nil
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: class
+mathjax: true
 
 include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "vendor"]
+
+
+# Site owner
+owner:
+  name: Hacking bits
+  avatar: bio-photo.jpg
+  email: you@email.com
+  disqus-shortname: hackingbits
+  twitter: #username
+  facebook: #username
+  github: hackingbits
+  stackexchange: #http://stackoverflow.com/users/123456/username
+  linkedin: #username
+  instagram: #username
+  flickr: #username
+  tumblr: #username
+  pinterest: #username
+  weibo: #userid
+  google:
+    plus: #username
+    analytics: caUXZsQs_o7fjo96nIgDVjKmSxZzbrVYWjeluLHmqFI
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:

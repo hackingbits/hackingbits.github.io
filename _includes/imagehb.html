@@ -1,10 +1,16 @@
 <!-- hackingbits -->
 <figure class="imagehb">
 	<a href="{{ include.url }}">
-		<img src="{{ include.url }}" alt="{{ include.caption }}">
+		<img src="{{ include.url }}" alt="image" width="{{ include.w }}" height="{{ include.h }}">
 	</a>
-	{% if include.caption %}
-            <p class="image-caption">{{ include.caption }}</p>
-        {% endif %}
+{% if include.caption %}
+	<figcaption>
+	{% if include.caption-link %}
+		<a href="{{ include.caption-link }}" title="{{ include.caption }}">{{ include.caption }}</a>
+	{% else %}
+		{{ include.caption }}
+	{% endif %}
+	</figcaption>
+{% endif %}
 </figure>
 {: style="text-align: center; font-style: italic;"}

@@ -1,16 +1,16 @@
-//
-// Reset CSS
+// STYLE RESETS
 // Adapted from http://github.com/necolas/normalize.css
 // --------------------------------------------------
 
-*, *:after, *:before {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
+// Apply a natural box layout model to all elements
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+ }
 
-// Display in IE6-9 and FF3
-// -------------------------
+// Remove margin
+body { margin: 0; } 
+
+// Display HTML5 elements in IE6-9 and FF3
 article,
 aside,
 details,
@@ -25,7 +25,6 @@ section {
 }
 
 // Display block in IE6-9 and FF3
-// -------------------------
 audio,
 canvas,
 video {
@@ -35,30 +34,28 @@ video {
 }
 
 // Prevents modern browsers from displaying 'audio' without controls
-// -------------------------
 audio:not([controls]) {
-    display: none;
+  display: none;
 }
 
-// Base settings
-// -------------------------
+// Base font settings
 html {
   font-size: 100%;
   -webkit-text-size-adjust: 100%;
-      -ms-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
 }
-// Focus states
+// Apply focus state
 a:focus {
-  @include tab-focus();
+  @extend %tab-focus;
 }
-// Hover & Active
+
+// Remove outline
 a:hover,
 a:active {
   outline: 0;
 }
 
-// Prevents sub and sup affecting line-height in all browsers
-// -------------------------
+// Prevent sub and sup affecting line-height in all browsers
 sub,
 sup {
   position: relative;
@@ -73,29 +70,21 @@ sub {
   bottom: -0.25em;
 }
 
-// Blockquote
-// -------------------------
+// Normalize blockquotes
 blockquote {
   margin: 0;
 }
 
 // Img border in a's and image quality
-// -------------------------
 img {
-  /* Responsive images (ensure images don't scale beyond their parents) */
-  max-width: 100%; /* Part 1: Set a maxium relative to the parent */
-  width: auto\9; /* IE7-8 need help adjusting responsive images */
-  height: auto; /* Part 2: Scale the height according to the width, otherwise you get stretching */
+  // Responsive images (ensure images don't scale beyond their parents)
+  max-width: 100%; // Part 1: Set a maximum relative to the parent
+  width: auto\9; // IE7-8 need help adjusting responsive images
+  height: auto; // Part 2: Scale the height according to the width, otherwise you get stretching
 
   vertical-align: middle;
   border: 0;
   -ms-interpolation-mode: bicubic;
-}
-
-// Full width tables
-// -------------------------
-table {
-  width: 100%;
 }
 
 // Prevent max-width from affecting Google Maps
@@ -104,9 +93,7 @@ table {
   max-width: none;
 }
 
-// Forms
-// -------------------------
-// Font size in all browsers, margin changes, misc consistency
+// Consistent form font size in all browsers, margin changes, misc
 button,
 input,
 select,

@@ -1,22 +1,25 @@
 ---
 layout: page
-title: About Hacking bits
+title: About
+excerpt:
+modified: 2014-08-08T19:44:38.564948-04:00
 image:
-  feature: abstract-5.jpg
-  credit: dargadgetz
-  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
-comments: false
-modified: 2015-10-22
+  feature:
+  credit:
+  creditlink:
 ---
 
 Hacking bits is the place where some crazy minds can outrageously express their hallucinations coding or writing about computer related topics.
 
 Be invited to **[help](http://github.com/hackingbits)** their minds get healed.
+<br /><br />
 
 ## Meet the twisted ones
-<br>
+{: style="text-align: center;"}
+<br />
+
 {% for author in site.data.authors %}
-  <div itemscope itemtype="http://schema.org/Person">  
+  <center><div itemscope itemtype="http://schema.org/Person">
   {% if author[1].avatar contains 'http' %}
     <img src="{{ author[1].avatar }}" class="bio-photo" alt="{{ author[1].name }} bio photo">
   {% else %}
@@ -25,6 +28,7 @@ Be invited to **[help](http://github.com/hackingbits)** their minds get healed.
 
   <h3 itemprop="name">{{ author[1].name }}</h3>
     <p>{{ author[1].bio }}</p>
+    {% if author[1].web %}<a href="{{ author[1].web }}" class="author-social" target="_blank"><i class="fa fa-fw fa-globe"></i> Web</a>{% endif %}    
     {% if author[1].email %}<a href="mailto:{{ author[1].email }}" class="author-social" target="_blank"><i class="fa fa-fw fa-envelope-square"></i> Email</a>{% endif %}
     {% if author[1].twitter %}<a href="http://twitter.com/{{ author[1].twitter }}" class="author-social" target="_blank"><i class="fa fa-fw fa-twitter-square"></i> Twitter</a>{% endif %}
     {% if author[1].facebook %}<a href="http://facebook.com/{{ author[1].facebook }}" class="author-social" target="_blank"><i class="fa fa-fw fa-facebook-square"></i> Facebook</a>{% endif %}
@@ -45,7 +49,8 @@ Be invited to **[help](http://github.com/hackingbits)** their minds get healed.
     {% if author[1].weibo %}<a href="http://www.weibo.com/{{ author[1].weibo }}" class="author-social" target="_blank"><i class="fa fa-fw fa-weibo"></i> Weibo</a>{% endif %}
     {% if author[1].flickr %}<a href="http://www.flickr.com/{{ author[1].flickr }}" class="author-social" target="_blank"><i class="fa fa-fw fa-flickr"></i> Flickr</a>{% endif %}
     {% if author[1].codepen %}<a href="http://codepen.io/{{ author[1].codepen }}" class="author-social" target="_blank"><i class="fa fa-fw fa-codepen"></i> CodePen</a>{% endif %}    
-  </div>  
+  </div>
+  </center>  
   ---
   <br />
 {% endfor %}
