@@ -19,8 +19,8 @@ files to make the coding easier.
 
 <!--more-->
 
-Emacs is rocking to my needs, check it: [https://github.com/geyslan/configs/blob/master/home/.emacs.d/init.el](https://github.com/geyslan/configs/blob/master/home/.emacs.d/init.el)
+Emacs is rocking to my needs, check it: [init.el](https://github.com/geyslan/configs/blob/master/home/.emacs.d/init.el)
 
-And why not to study (slowly) about OSDev (kernel)? So: [https://github.com/radix-kernel/radix](https://github.com/radix-kernel/radix)
+And why not to study (slowly) about OSDev (kernel)? So: [radix](https://github.com/geyslan/radix)
 
 See you.
