@@ -4,7 +4,7 @@ title: Uzumaki.el - a simple Emacs buffers cycler
 date: '2014-05-26T08:19:00.002-03:00'
 author: geyslan
 categories: blog
-excerpt:
+excerpt: ""
 tags: [emacs, code, elisp, english]
 share: true
 modified: '2014-05-26T08:25:03.514-03:00'

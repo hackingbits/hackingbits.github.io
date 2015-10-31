@@ -4,7 +4,7 @@ title: Crack them all!
 date: '2013-04-07T12:26:00.000-03:00'
 author: geyslan
 categories: blog
-excerpt:
+excerpt: ""
 tags: [slae, linux, code, assembly, c, elf, crackme, hacking, reverse engineering, portuguese]
 share: true
 modified: '2013-08-20T15:37:34.940-03:00'

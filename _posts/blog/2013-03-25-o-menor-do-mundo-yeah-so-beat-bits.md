@@ -4,7 +4,7 @@ title: O menor do mundo? Yeah? So Beat the Bits!
 date: '2013-03-25T08:35:00.000-03:00'
 author: geyslan
 categories: blog
-excerpt:
+excerpt: ""
 tags: [shellcode, linux, code, assembly, c, hacking, portuguese]
 share: true
 modified: '2013-08-20T15:24:46.146-03:00'

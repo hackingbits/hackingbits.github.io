@@ -4,7 +4,7 @@ title: SLAE - 4th Assignment - Encoding and Decoding Gollums
 date: '2013-04-12T23:30:00.001-03:00'
 author: geyslan
 categories: blog
-excerpt:
+excerpt: ""
 tags: [slae, shellcode, linux, code, assembly, c, python, hacking, portuguese]
 share: true
 modified: '2013-08-20T15:41:02.420-03:00'

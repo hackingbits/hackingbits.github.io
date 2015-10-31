@@ -19,13 +19,15 @@ sass:
   style: compressed
 gems:
   - jekyll-sitemap
+  - jekyll-gist
+  - pygments.rb
 
 kramdown:
   auto_ids: true
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..2
-  use_coderay: false
+  enable_coderay: false
 
 mathjax: true
 
@@ -37,11 +39,12 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 owner:
   name: Hacking bits
   avatar: bio-photo.jpg
-  email: you@email.com
+  email: geyslan@gmail.com
   disqus-shortname: hackingbits
   twitter: #username
   facebook: #username
   github: hackingbits
+  repo: hackingbits.github.io
   stackexchange: #http://stackoverflow.com/users/123456/username
   linkedin: #username
   instagram: #username

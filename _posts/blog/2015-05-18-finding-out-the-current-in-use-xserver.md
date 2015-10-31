@@ -4,7 +4,7 @@ title: Finding out the current (in use) XServer DISPLAY number!
 date: '2015-05-18T16:42:00.002-03:00'
 author: geyslan
 categories: blog
-excerpt:
+excerpt: ""
 tags: [xorg, linux, bash, command line, english]
 share: true
 modified: '2015-05-19T21:57:31.801-03:00'

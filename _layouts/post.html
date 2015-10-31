@@ -29,8 +29,16 @@
       </header>
       <div class="entry-content">
         {{ content }}
-        <hr />
+	<hr />
       </div><!-- /.entry-content -->
+      <div>
+	<center>
+	  <i>
+	    This post was written in markup language. You can find it <a href="http://github.com/{{ site.owner.github }}/{{ site.owner.repo }}" target="_blank"><b>here</b></a>.
+	  </i>
+	</center>
+	<hr />
+      </div>
       <span>
         <span class="entry-meta">
           <a href="{{ author.web }}" target="_blank"><img class="bio-photo" src="{{ site.url }}/images/{{ author.avatar }}" alt="{{ author.name }}"></a>

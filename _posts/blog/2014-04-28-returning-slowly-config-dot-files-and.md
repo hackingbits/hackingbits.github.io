@@ -4,7 +4,7 @@ title: Returning Slowly - config (dot) files and kernel study
 date: '2014-04-28T17:22:00.000-03:00'
 author: geyslan
 categories: blog
-excerpt:
+excerpt: ""
 tags: [emacs, osdev, kernel, dot files, elisp, english]
 share: true
 modified: '2014-04-28T17:39:45.661-03:00'

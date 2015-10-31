@@ -4,7 +4,7 @@ title: SLAE - 2nd Assignment - Shell Reverse TCP
 date: '2013-03-20T00:40:00.000-03:00'
 author: geyslan
 categories: blog
-excerpt:
+excerpt: ""
 tags: [slae, shellcode, linux, code, assembly, hacking, reverse engineering, portuguese]
 share: true
 modified: '2013-06-06T22:44:21.128-03:00'

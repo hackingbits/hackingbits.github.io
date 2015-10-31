@@ -4,7 +4,7 @@ title: SLAE - 6th Assignment - Polymorphic Shellcodes
 date: '2013-04-21T19:33:00.001-03:00'
 author: geyslan
 categories: blog
-excerpt:
+excerpt: ""
 tags: [slae, shellcode, linux, code, assembly, hacking, portuguese]
 share: true
 modified: '2013-08-22T17:24:25.700-03:00'

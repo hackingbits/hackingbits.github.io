@@ -4,7 +4,7 @@ title: SLAE - 7th Assignment - Crypted Shellcodes
 date: '2013-04-29T12:03:00.000-03:00'
 author: geyslan
 categories: blog
-excerpt:
+excerpt: ""
 tags: [slae, shellcode, linux, code, assembly, python, cryptography, hacking, portuguese]
 share: true
 modified: '2013-08-22T13:17:25.039-03:00'

@@ -4,7 +4,7 @@ title: A book to study C, or NOT!
 date: '2014-09-18T11:23:00.000-03:00'
 author: geyslan
 categories: blog
-excerpt:
+excerpt: ""
 tags: [code, c, hacking, english]
 share: true
 modified: '2014-09-18T11:32:35.361-03:00'

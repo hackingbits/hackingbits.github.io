@@ -4,7 +4,7 @@ title: {{ title }}
 author:
 modified:
 categories: {{ dir }}
-excerpt:
+excerpt: ""
 tags: []
 share: true
 image:

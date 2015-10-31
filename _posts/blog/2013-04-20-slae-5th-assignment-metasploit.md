@@ -4,7 +4,7 @@ title: SLAE - 5th Assignment - Metasploit Shellcodes Analysis
 date: '2013-04-20T15:56:00.003-03:00'
 author: geyslan
 categories: blog
-excerpt:
+excerpt: ""
 tags: [slae, shellcode, linux, code, assembly, hacking, metasploit, portuguese]
 share: true
 modified: '2013-08-22T11:41:03.312-03:00'

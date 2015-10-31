@@ -1,7 +1,13 @@
+Gemfile.lock
 _site
 .DS_Store
+.jekyll-metadata
 *.sublime-project
 *.sublime-workspace
 codekit-config.json
 node_modules
 .sass-cache
+
+# Editor backups #
+*~
+\#*#

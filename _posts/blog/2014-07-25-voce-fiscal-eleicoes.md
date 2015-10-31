@@ -4,7 +4,7 @@ title: Você Fiscal!!! Eleições...
 date: '2014-07-25T09:53:00.000-03:00'
 author: geyslan
 categories: blog
-excerpt:
+excerpt: ""
 tags: [election, politic, portuguese]
 share: true
 modified: '2014-07-25T09:53:38.724-03:00'

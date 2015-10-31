@@ -4,7 +4,7 @@ title: A book to study C
 date: '2014-08-26T20:17:00.000-03:00'
 author: geyslan
 categories: blog
-excerpt:
+excerpt: ""
 tags: [code, c, hacking, english]
 share: true
 modified: '2014-08-26T20:24:40.439-03:00'

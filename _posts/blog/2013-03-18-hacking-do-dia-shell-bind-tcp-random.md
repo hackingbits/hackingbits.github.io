@@ -4,7 +4,7 @@ title: Hacking do Dia - Shell Bind TCP Random Port
 date: '2013-03-18T23:00:00.000-03:00'
 author: geyslan
 categories: blog
-excerpt:
+excerpt: ""
 tags: [slae, shellcode, linux, code, assembly, c, hacking, metasploit, portuguese]
 share: true
 modified: '2014-05-04T11:38:14.382-03:00'

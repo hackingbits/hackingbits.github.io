@@ -4,7 +4,7 @@ title: '"It works" mantra'
 date: '2013-10-28T14:53:00.001-03:00'
 author: geyslan
 categories: blog
-excerpt:
+excerpt: ""
 tags: [coverity, kernel, linux, lkml, patch, english]
 share: true
 modified: '2013-10-28T14:57:10.545-03:00'

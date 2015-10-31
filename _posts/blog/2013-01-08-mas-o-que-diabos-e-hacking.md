@@ -4,7 +4,7 @@ title: Mas o que diabos é HACKING?
 date: '2013-01-08T22:54:00.000-03:00'
 author: geyslan
 categories: blog
-excerpt:
+excerpt: ""
 tags: [code, c, hacker, hacking, portuguese]
 share: true
 modified: '2013-08-20T12:55:11.522-03:00'

@@ -4,7 +4,7 @@ title: SLAE - 3rd Assignment - Caçando Ovos?
 date: '2013-03-27T12:07:00.001-03:00'
 author: geyslan
 categories: blog
-excerpt:
+excerpt: ""
 tags: [slae, shellcode, linux, code, assembly, c, hacking, portuguese]
 share: true
 modified: '2013-06-06T22:43:20.144-03:00'

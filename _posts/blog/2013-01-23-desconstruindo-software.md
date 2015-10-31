@@ -4,7 +4,7 @@ title: "(Des)construindo Software"
 date: '2013-01-23T20:10:00.001-03:00'
 author: geyslan
 categories: blog
-excerpt:
+excerpt: ""
 tags: [linux, code, c, elf, reverse engineering, portuguese]
 share: true
 modified: '2013-08-20T14:10:38.486-03:00'

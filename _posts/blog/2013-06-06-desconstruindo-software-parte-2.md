@@ -4,7 +4,7 @@ title: "(Des)construindo Software - Parte 2"
 date: '2013-06-06T22:04:00.001-03:00'
 author: geyslan
 categories: blog
-excerpt:
+excerpt: ""
 tags: [linux, code, assembly, c, elf, reverse engineering, portuguese]
 share: true
 modified: '2013-09-03T11:17:23.043-03:00'

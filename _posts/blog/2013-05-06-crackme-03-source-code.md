@@ -4,7 +4,7 @@ title: Crackme 03 - Source Code
 date: '2013-05-06T20:00:00.000-03:00'
 author: geyslan
 categories: blog
-excerpt:
+excerpt: ""
 tags: [linux, code, assembly, python, elf, crackme, cryptography, hacking, reverse engineering, portuguese]
 share: true
 modified: '2013-08-20T15:38:59.767-03:00'

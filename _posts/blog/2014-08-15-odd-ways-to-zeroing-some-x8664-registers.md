@@ -4,7 +4,7 @@ title: Odd ways to zeroing some x86_64 registers
 date: '2014-08-15T12:20:00.000-03:00'
 author: geyslan
 categories: blog
-excerpt:
+excerpt: ""
 tags: [shellcode, code, assembly, hacking, reverse engineering, english]
 share: true
 modified: '2014-08-15T12:21:07.015-03:00'

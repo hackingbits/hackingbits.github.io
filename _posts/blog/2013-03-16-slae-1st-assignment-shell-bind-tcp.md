@@ -4,7 +4,7 @@ title: SLAE - 1st Assignment - Shell Bind TCP
 date: '2013-03-16T11:28:00.000-03:00'
 author: geyslan
 categories: blog
-excerpt:
+excerpt: ""
 tags: [slae, shellcode, linux, code, assembly, c, hacking, reverse engineering, portuguese]
 share: true
 modified: '2013-06-07T15:31:11.466-03:00'

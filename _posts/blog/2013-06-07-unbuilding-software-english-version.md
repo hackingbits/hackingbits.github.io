@@ -4,7 +4,7 @@ title: "(Un)building Software - English Version"
 date: '2013-06-07T10:21:00.000-03:00'
 author: geyslan
 categories: blog
-excerpt:
+excerpt: ""
 tags: [linux, code, assembly, python, elf, crackme, cryptography, hacking, reverse engineering, english]
 share: true
 modified: '2013-06-07T10:48:02.243-03:00'

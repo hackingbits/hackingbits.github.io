@@ -4,7 +4,7 @@ title: "[AnchisesLandia] Mais de 500 Profissionais de Segurança no Twitter"
 date: '2014-01-07T12:53:00.000-03:00'
 author: geyslan
 categories: blog
-excerpt:
+excerpt: ""
 tags: [security, portuguese]
 share: true
 modified: '2014-01-07T13:48:21.154-03:00'
