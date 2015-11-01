@@ -14,11 +14,12 @@ image:
 date: 2015-10-31T19:07:45-03:00
 ---
 
-I've been thinking about the IT recruitment process nowadays and I've
-realized that's something really wrong with it. Then, following my
-friend [Paulo Benatto](http://patito.github.io/)'s advice, I decided
-to express my feelings writing my CV in assembly language. You ask me
-why? Well, I ask you why don't to do it?
+I've been thinking about the IT recruitment process nowadays and I
+realized that there's something really wrong with it. Then, following
+the advice of my friend [Paulo Benatto](http://patito.github.io/), I
+decided to express my feelings writing my CV in assembly language. You
+may ask me: Why would you do that? Then I would reply to you with: Why
+not?
 
 So check
 [it](https://github.com/geyslan/cv/blob/master/geyslan_bem_en.asm) out
