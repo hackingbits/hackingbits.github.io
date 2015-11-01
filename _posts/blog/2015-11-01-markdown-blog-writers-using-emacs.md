@@ -5,7 +5,7 @@ author: geyslan
 modified:
 categories: blog
 excerpt: ""
-tags: [markdown, emacs]
+tags: [markdown, emacs, elisp]
 share: true
 image:
   feature:
