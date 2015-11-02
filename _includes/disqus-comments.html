@@ -8,7 +8,7 @@
     var disqus_config = function () {
         {% capture canonical %}{{ site.url }}{% if site.permalink contains '.html' %}{{ page.url }}{% else %}{{ page.url | remove:'index.html' | strip_slash }}{% endif %}{% endcapture %}
         this.page.url = '{{ canonical }}';  // Replace PAGE_URL with your page's canonical URL variable
-        this.page.identifier = '{{ page.id }}'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        //this.page.identifier = '{{ page.id }}'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
     };
     (function() {  // DON'T EDIT BELOW THIS LINE
         var d = document, s = d.createElement('script');
