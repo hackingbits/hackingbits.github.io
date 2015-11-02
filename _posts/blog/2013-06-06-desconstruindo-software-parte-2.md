@@ -51,7 +51,7 @@ que descreve a interface entre o programa e o sistema operacional ou outro
 programa), faço uma ressalva à afirmação "o arquivo-objeto é criado pelo
 assembler 'e' link editor", pois, contrariedade a essa regra foi demonstrada na
 criação do
-[crackme.03](http://www.hackingbits.com/2013/05/crackme-03-source-code.html), ao
+[crackme.03](/blog/crackme-03-source-code), ao
 ser desprezada a lincagem. De toda sorte, num processo normal de compilação é
 correto se dizer que o procedimento de lincagem estará presente.
 

@@ -21,7 +21,7 @@ Arapov](https://twitter.com/andreyarapov) que quebraram rapidinho o binário
 utilizando formas distintas e super interessantes.
 
 Este é o walk through (análise dinâmica) do Andrey.<br>
-[http://www.nixaid.com/reverse_engineering/crackme_v3_walkthrough](http://www.nixaid.com/reverse_engineering/crackme_v3_walkthrough)
+[https://nixaid.com/crackme-v3-walkthrough/](https://nixaid.com/crackme-v3-walkthrough/)
 
 Abaixo o do Fernando Mercês (análise estática).<br>
 [https://groups.google.com/d/msg/brasil-underground/IByA_8XcppU/P9Oqzn9cFBwJ](https://groups.google.com/d/msg/brasil-underground/IByA_8XcppU/P9Oqzn9cFBwJ)
