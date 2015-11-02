@@ -14,12 +14,12 @@ blogger_orig_url: http://www.hackingbits.com/2013/04/slae-5th-assignment-metaspl
 
 */\*<br>
 Este post é uma sequência. Para melhor entendimento, vejam:<br>
-[SLAE - 1st Assignment - Shell Bind TCP](/slae-1st-assignment-shell-bind-tcp.html)<br>
-[Hacking do Dia - Shell Bind TCP Random Port](/hacking-do-dia-shell-bind-tcp-random.html)<br>
-[SLAE - 2nd Assignment - Shell Reverse TCP](/slae-2nd-assignment-shell-reverse-tcp.html)<br>
-[O menor do mundo? Yeah? So Beat the Bits!](/o-menor-do-mundo-yeah-so-beat-bits.html)<br>
-[SLAE - 3rd Assignment - Caçando Ovos?](/slae-3rd-assignment-cacando-ovos.html)<br>
-[SLAE - 4th Assignment - Encoding and Decoding Gollums](/slae-4th-assignment-encoding-and.html)<br>
+[SLAE - 1st Assignment - Shell Bind TCP](/blog/slae-1st-assignment-shell-bind-tcp)<br>
+[Hacking do Dia - Shell Bind TCP Random Port](/blog/hacking-do-dia-shell-bind-tcp-random)<br>
+[SLAE - 2nd Assignment - Shell Reverse TCP](/blog/slae-2nd-assignment-shell-reverse-tcp)<br>
+[O menor do mundo? Yeah? So Beat the Bits!](/blog/o-menor-do-mundo-yeah-so-beat-bits)<br>
+[SLAE - 3rd Assignment - Caçando Ovos?](/blog/slae-3rd-assignment-cacando-ovos)<br>
+[SLAE - 4th Assignment - Encoding and Decoding Gollums](/blog/slae-4th-assignment-encoding-and)<br>
 \*/*
 
 <!--more-->

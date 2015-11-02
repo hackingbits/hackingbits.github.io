@@ -15,8 +15,8 @@ blogger_orig_url: http://www.hackingbits.com/2013/03/slae-2nd-assignment-shell-r
 */\*<br>
 Este post é uma sequência. Para melhor entendimento, vejam:<br>
 [SLAE - 1st Assignment - Shell Bind
-TCP](/slae-1st-assignment-shell-bind-tcp.html)<br>
-[Hacking do Dia - Shell Bind TCP Random Port](/hacking-do-dia-shell-bind-tcp-random.html)<br>
+TCP](/blog/slae-1st-assignment-shell-bind-tcp)<br>
+[Hacking do Dia - Shell Bind TCP Random Port](/blog/hacking-do-dia-shell-bind-tcp-random)<br>
 \*/*
 
 <!--more-->

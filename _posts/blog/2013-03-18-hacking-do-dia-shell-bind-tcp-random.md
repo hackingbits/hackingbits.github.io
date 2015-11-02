@@ -13,7 +13,7 @@ blogger_orig_url: http://www.hackingbits.com/2013/03/hacking-do-dia-shell-bind-t
 ---
 
 */\*<br>
-Para melhor entendimento, leiam o post anterior [SLAE - 1st Assignment - Shell Bind TCP](/slae-1st-assignment-shell-bind-tcp.html)<br>
+Para melhor entendimento, leiam o post anterior [SLAE - 1st Assignment - Shell Bind TCP](/blog/slae-1st-assignment-shell-bind-tcp)<br>
 \*/*
 
 <!--more-->

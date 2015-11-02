@@ -25,8 +25,9 @@ The discussion about the topic is on [Quora](http://www.quora.com/How-do-I-find-
 
 ### Update with improvements
 
-[http://www.commandlinefu.com/commands/view/14259/find-out-the-active-xorg-server-display-number-from-outside](http://www.commandlinefu.com/commands/view/14259/find-out-the-active-xorg-server-display-number-from-outside)
+See it on [commandlinefu](http://www.commandlinefu.com/commands/view/14259/find-out-the-active-xorg-server-display-number-from-outside).
 
 {% highlight console %}
 $ for p in $(pgrep -t $(cat /sys/class/tty/tty0/active)); do d=$(awk -v RS='0' -F= '$1=="DISPLAY" { print $2 }' /proc/$p/environ 2>/dev/null); [[ -n $d ]] && break; done; echo $d
+:0
 {% endhighlight %}

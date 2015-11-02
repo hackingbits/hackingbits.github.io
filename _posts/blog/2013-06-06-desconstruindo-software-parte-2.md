@@ -22,7 +22,7 @@ fá-la-emos propriamente lidando com o respectivo binário.</s>
 <!--more-->
 
 Preciso também fazer menção às correções que efetuei no
-[primeiro](/desconstruindo-software.html) post da sequência. Graças ao [Ygor
+[primeiro](/blog/desconstruindo-software) post da sequência. Graças ao [Ygor
 Parreira](http://www.linkedin.com/pub/ygor-da-rocha-parreira/12/248/b75) (valeu,
 dmr!), identifiquei informações desatualizadas na descrição do processo de
 compilação. Por isso, para que não haja prejuízo no estudo, a releitura se faz
