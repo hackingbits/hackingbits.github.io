@@ -138,7 +138,7 @@ figure {
       -webkit-transition-duration: 0.25s;
       -moz-transition-duration: 0.25s;
       -o-transition-duration: 0.25s;
-      opacity: 0.7;
+      opacity: 0.75;
       &:hover {
         @include transform(translateY(-5px));
         @include box-shadow(0 0 10px rgba($black, .20));
