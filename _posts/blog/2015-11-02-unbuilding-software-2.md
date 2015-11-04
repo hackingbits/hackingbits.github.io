@@ -464,7 +464,7 @@ $ readelf -h programa2 | grep Entry
   Entry point address:               0x8048080
 {% endhighlight %}
 
-We're done here.</s>
+We're done here.
 
 Till next!  o/
 
