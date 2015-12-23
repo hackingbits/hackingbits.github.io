@@ -7,11 +7,11 @@ categories: blog
 excerpt: ""
 tags: [shellcode, code, assembly, hacking, reverse engineering, english]
 share: true
-modified: '2014-08-15T12:21:07.015-03:00'
+modified: '2015-12-23T13:11:07.015-03:00'
 blogger_id: tag:blogger.com,1999:blog-2541885528459487831.post-5615588454119461090
 blogger_orig_url: http://www.hackingbits.com/2014/08/odd-ways-to-zeroing-some-x8664-registers.html
 ---
-Hi there! Here are some ways (retrocompatible instructions [[1-2]](#links) and xmm) to
+Hi there! Here are some ways (retrocompatible instructions [[1-3]](#links) and xmm) to
 fill registers with zero (NULL) bytes without have any zero bytes in bytecode.
 
 <!--more-->
@@ -97,9 +97,20 @@ Zeroing (1) %RDX at 6 bytes cost.
 40009b:    21 c2                    and    %eax,%edx
 {% endhighlight %}
 
+####*Update - December 23, 2015*
+
+Zeroing (1) %RDI at 9 bytes cost.
+
+{% highlight console %}
+400078:    0f c2 c9 04              cmpneqps %xmm1,%xmm1
+40007c:    66 48 0f 7e cf           movq   %xmm1,%rdi
+{% endhighlight %}
+
+
 Use them at will.
 
 ## Links {#links}
 
 [1] - [How NOP nearly became a non-NOP on AMD64](http://www.pagetable.com/?p=6)<br>
-[2] - [x86oddities](https://code.google.com/p/corkami/wiki/x86oddities#nop)
+[2] - [x86oddities](https://code.google.com/p/corkami/wiki/x86oddities#nop)<br>
+[3] - [The Surprising Subtleties of Zeroing a Register](https://randomascii.wordpress.com/2012/12/29/the-surprising-subtleties-of-zeroing-a-register)
